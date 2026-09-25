@@ -23,12 +23,15 @@ This class covers the use of Python and other technologies for data analysis and
 
 ## Learning Outcomes
 
-Upon completion of this course, students
+Upon completion of this course, students will be able to:
 
-- will have created Jupyter Notebooks and will have published them to a Github repository
-- will be able to read and write intermediate code in Python
-- will have imported, manipulated, and summarized data in Python for exploratory data analysis
-- will have created data visualizations in Python
+- Create reproducible Jupyter notebooks and manage their work in a GitHub repository.
+- Read, write, and explain intermediate Python code.
+- Translate a question into a computational task by identifying the required inputs, expected outputs, and relevant assumptions.
+- Test code using representative examples and edge cases, investigate unexpected results, and explain why a solution works.
+- Import, clean, reshape, and summarize data for exploratory data analysis.
+- Create and interpret data visualizations in the context of the question and the data.
+- Evaluate suggestions from documentation, other people, and AI tools using their own understanding, tests, and knowledge of the problem.
 
 ## Prerequisites
 
@@ -42,28 +45,28 @@ Stats 20
 
 ## Office Hours Schedule
 
-- Physical Office Location: Math Sciences Building 8105 J (8th floor)
-
-- Mondays 12:00 PM - 12:50 PM (in-person)
+- Mondays 11:00 AM - 11:50 AM (in-person)
 - Mondays 4:30 PM - 5:15 PM (online)
 - Tuesdays 4:30 PM - 5:15 PM (online)
-- Wednesdays 12:00 PM - 12:50 PM (in-person)
-- Wednesdays 4:30 PM - 5:15 PM (online)
+- Wednesdays 11:00 AM - 11:50 AM (in-person)
+- Wednesdays 1:40 PM - 2:30 PM (online)
 - Thursdays 4:30 PM - 5:15 PM (online)
 
-* Zoom link:
+* Zoom link for online office hours:
     + https://ucla.zoom.us/j/98887074323?pwd=bjFqd2ZCNnRqQmMvU3dnYkVad0RqQT09
     + Meeting ID: 988 8707 4323
     + Passcode: 916280
     + Please **turn on your cameras**
 
-- Also general office hours (Open to students in any class and to former students):
+- Physical Office Location: Math Sciences Building 8105 J (8th floor)
 
-- Saturdays 10AM-11AM
+- Also general office hours (open to students in any class and to former students):
+
+- Saturdays 10AM - 11AM
     - https://ucla.zoom.us/j/96806536111
     - Meeting ID: 968 0653 6111
     - Passcode: 023194
-    - Note: Office Hours on Saturday use a different Zoom link
+    - Note: Office hours on Saturday use a different Zoom link.
 
 ## Special Dates
 
@@ -71,11 +74,8 @@ Dates are subject to changes and updates. The professor will make an announcemen
 
 ### Fall Quarter Dates
 
-- Instruction begins: Thu Sep 24, 2026
 - First lecture for this course: Fri Sep 25, 2026
-- Week 1 begins: Mon Sep 28, 2026
 - Instruction ends: Fri Dec 4, 2026
-- Finals Week: Mon Dec 7 - Fri Dec 11, 2026
 - Final exam for this course: Tue Dec 8, 2026, 8:00 AM - 11:00 AM
 
 University dates follow the [UCLA academic calendar](https://registrar.ucla.edu/portals/50/documents/calendar/academiccalendar26-27.pdf).
@@ -117,7 +117,9 @@ University dates follow the [UCLA academic calendar](https://registrar.ucla.edu/
 Announcements and assignments will be posted via Canvas / Bruin Learn <https://bruinlearn.ucla.edu> 
 Notes will be uploaded to GitHub Repository: <https://github.com/smileschen/26-fall-stats-21>
 
-Homework assignments will be submitted via Gradescope. Students will be invited and will need to create an account. <https://www.gradescope.com>
+Regular homework assignments will be submitted via Gradescope. Students will be invited and will need to create an account. <https://www.gradescope.com>
+
+DataCamp certificates of completion will be submitted to the corresponding assignments in Canvas/Bruin Learn.
 
 
 ## Software
@@ -135,7 +137,7 @@ In this course, we will use Python
 
 The textbook is available free to all at the publisher's website: <https://greenteapress.com/wp/think-python-3rd-edition/>
 
-The print version is also available for purchase at any retailer of your choice. If you decide to purchase the text, you must get the second edition.
+The print version is also available for purchase at any retailer of your choice. If you decide to purchase the text, you must get the third edition.
 
 This is an excellent text that emphasizes brevity. Please be sure to do your reading. Every sentence is valuable.
 
@@ -205,10 +207,12 @@ These three drops are intended to cover illness, emergencies, and other unavoida
 
 **There are no make-up quizzes, late submissions, alternative participation assignments, or additional discretionary drops.** Once the three lowest scores have been dropped, all remaining lecture quiz scores count toward your participation grade. Please do not request an additional drop or a make-up for an absence or missed poll. This policy does not change approved accommodations described in the Accommodations for Students with Disabilities section.
 
+If a class-wide iClicker outage or an instructor error affects a lecture quiz, the instructor will remove that quiz from the participation grade for all students. A removed quiz does not count against students and does not use one of their three drops.
 
-## Homework
 
-Each homework assignment is worth the same amount. Each homework assignment will be scored out of a total of 100 points. None of the homework scores will be dropped. It is your responsibility to verify that your homework assignment successfully uploaded by the deadline.
+## Regular Homework
+
+Each regular homework assignment is worth the same amount and will be scored out of 100 points. None of the regular homework scores will be dropped. Unless otherwise announced, regular homework is due at **6:00 PM on the listed due date**, local time in Los Angeles. It is your responsibility to verify that your assignment successfully uploaded by the deadline. The submission, late-work, extension, and regrade policies in this section apply to regular homework; DataCamp has separate requirements below.
 
 All homework assignments will be posted as an ipynb file. You will download the ipynb file and modify it with your answers.
 
@@ -256,7 +260,7 @@ This is the exact same code, but adds the line `print(x)`. This small change mak
 
 **It is your responsibility to read through the rendered output and to make sure that every problem and task has the required output before submitting your assignment.**
 
-### Late Policy for Homework
+### Late Policy for Regular Homework
 
 Homework deadlines are based on local time in Los Angeles, California.
 
@@ -288,9 +292,11 @@ I strongly advise uploading the homework to Gradescope well in advance of the de
 
 **After 7 calendar days, late homework assignments will not be accepted.** Exceptions beyond the 7-day submission window will be granted in only extreme circumstances and will only be granted via an office hours meeting (Zoom or in-person) with the professor.
 
-### Homework extensions
+### Regular Homework Extensions
 
-I generally grant a 72-hour reprieve from the late penalty for homework submissions if you contact me in office hours to request an extension prior to the homework deadline. Extension requests made via email will be ignored.
+I generally grant a 72-hour extension for regular homework if you contact me in office hours to request it before the homework deadline. Extension requests made via email will be ignored.
+
+An approved extension establishes a new deadline **72 hours after the original deadline**. The grace period, late penalties, and seven-day submission window are measured from the new deadline. No late penalty applies before the extended deadline.
 
 Requests for extensions after the homework deadline will be granted only in extreme situations.
 
@@ -309,23 +315,36 @@ Please only submit a regrade request if you are certain that a mistake was made 
 
 During a regrade request, the TA or Professor may discover and deduct points for mistakes that were not found during the initial grading. It is possible your regrade request results in a lower grade for the assignment.
 
-### DataCamp Homework
+## DataCamp Homework
 
-Some homework assignments will be assigned via DataCamp.
+DataCamp invitations provide free access for 6 months and go to your myUCLA email address. Check the **To** field and use that **exact address**; `@ucla.edu` and `@g.ucla.edu` are distinct, even with forwarding. Accept the invitation to join **2026 Fall Stats 21** using an existing account with the invited address. If your account uses a different address, log out and create a new account with the invited address through the invitation to access course materials.
 
-Students will receive an invitation to sign up for a free 6-month subscription to DataCamp. The email address that appears on Canvas and my.ucla will be used for the invitation.
+Your DataCamp first and last name must match Canvas. There are **six DataCamp assignments**, each consisting of one assigned course. All six have equal weight within the DataCamp category, which is worth 20% of the course grade.
 
-Students **must** sign up for DataCamp using the **exact same** email address that was invited. For example, if joebruin@ucla.edu is invited, joebruin@g.ucla.edu CANNOT be used.
+### Submission and Grading
 
-Students must also make sure their DataCamp account uses the first and last name as it appears in Canvas.
+Complete the assigned DataCamp course and submit its **certificate of completion to the corresponding Canvas/Bruin Learn assignment**. Each assignment is worth 100 points before any late deduction. Credit requires the certificate of completion; completing the course on DataCamp alone does not submit the assignment.
 
-Each homework assignment on DataCamp will consist of completing an assigned course. Each homework assignment is worth the same amount.
+Unless otherwise announced, DataCamp certificates are due at **11:59 PM on the listed due date**, local time in Los Angeles. Lateness is determined by the certificate's submission time in Canvas/Bruin Learn.
 
-### Tentative Homework Deadlines
+### Late Policy for DataCamp
 
-Homework deadlines subject to change. Additional DataCamp courses could be assigned.
+There is a 10-minute grace period: certificates submitted up to 10 minutes and 59 seconds late receive no penalty. After that grace period, the following deductions apply to the assignment's 100 points:
 
-#### Regular Homework
+| Certificate submission time | Deduction |
+|:--|--:|
+| After the grace period but less than 24 hours late | 10 points |
+| At least 24 hours but less than 72 hours late | 20 points |
+| At least 72 hours and up to 7 days late | 30 points |
+| More than 7 days late, by the final submission cutoff below | 60 points |
+
+Only one deduction applies; the penalties are not cumulative. **All DataCamp certificates must be submitted by 11:59 PM on Friday, December 4, 2026.** Certificates submitted after this final cutoff will not be accepted. The grace period does not extend this final cutoff. Missing certificates receive zero credit.
+
+## Tentative Homework Deadlines
+
+Homework deadlines are subject to change. Any changes will be announced on Canvas/Bruin Learn. All times are local time in Los Angeles.
+
+### Regular Homework (6:00 PM)
 
 - HW1: Fri October 9, 2026
 - HW2: Wed October 21, 2026
@@ -333,7 +352,7 @@ Homework deadlines subject to change. Additional DataCamp courses could be assig
 - HW4: Fri November 20, 2026
 - HW5: Wed December 2, 2026
 
-#### DataCamp Homework
+### DataCamp Homework (11:59 PM)
 
 - Intro to Shell: Fri October 2, 2026
 - Intro to Git: Wed October 7, 2026
@@ -344,23 +363,25 @@ Homework deadlines subject to change. Additional DataCamp courses could be assig
 
 ## Final Exam
 
-There will be a final exam covering programming concepts in Python.
+There will be an **in-person, paper final exam** covering programming concepts in Python. Further details, including permitted materials, will be provided to the class.
 
 The final exam is scheduled for **Tuesday, December 8, 2026, 8:00 AM - 11:00 AM** (Los Angeles time). See the [UCLA Schedule of Classes](https://sa.ucla.edu/ro/Public/SOC/Results/ClassDetail?term_cd=26F&subj_area_cd=STATS%20%20&crs_catlg_no=0021%20%20%20%20&class_id=263062200&class_no=%20001%20%20) for the exam location and any updates.
 
-### Make up policy for Exam
+### Final Exam Make-up Policy
 
-If you know you will be unavailable prior to the exam, please visit me in office hours to explain the situation. I will work with you to find an alternative arrangement.
+If you know in advance that you will be unavailable for the final exam, contact me before the exam to explain the situation and discuss an alternative arrangement.
 
-**If you are ill on the day of the exam, stay home and do not come to class.** Be sure to message me within 24 hours of the exam and attend the next available office hours to arrange for a make-up exam.
+**If you are ill on the day of the exam, stay home and do not attend the exam.** If illness or another emergency prevents you from taking the exam, contact me within **24 hours of the scheduled exam** to arrange a make-up. An office hours visit is not required.
 
 Other emergent situations for missing the exam will require documentation.
 
-In most cases, make-up of the exam must be taken within 7 days of the actual exam, or a zero will be recorded. (For example, a missed exam originally given on Monday must be made up by the following Monday by 5pm.)
+If a make-up cannot be scheduled, eligible students will be assigned an **Incomplete (I)** and will take the final exam during **Winter Quarter 2027**, with arrangements made directly with the instructor. Under [UCLA's Incomplete policy](https://registrar.ucla.edu/student-records/grades-and-academic-revisions), an Incomplete requires work of passing quality that remains unfinished for good cause, such as illness or another serious problem.
 
 ## Course Grade Changes
 
-After course grades have been submitted to the registrar, grades are final. Grade changes will only be considered if there has been a clerical or procedural mistake. Students have one quarter to make requests for a grade change. Graded exams and other materials will be kept for one quarter. After one quarter, course grade changes will not be made.
+Final course grades are governed by [UCLA Academic Senate Regulation 313](https://senate.ucla.edu/BylawsandRegulations/volume-2). Grades other than DR, I, and IP are final when filed, but may be corrected for clerical or procedural errors through the university's grade-change process. The university also provides a grading grievance process for grades assigned on grounds other than academic performance.
+
+Please report a suspected error promptly so that it can be reviewed. There is no course-imposed one-quarter cutoff for correcting an eligible error. Requests made more than one year after the original filing require additional department-chair verification under UCLA policy. A final grade cannot be raised by retaking an examination or submitting additional work, except through the applicable I or IP completion process.
 
 # Other Course Policies
 
@@ -377,9 +398,8 @@ As a student and member of the University community, you are here to get an educ
 In addition, each student is the sole owner of their own code and work and must NOT do any of the following:
 
 - Submit work that was written by someone other than the student.
-- Use an AI tool (including but not limited to ChatGPT, Github Copilot, Gemini, Claude) to write solutions.
-- Publish code or solutions online.
-- Post the course questions on forums other than the designated course discussion forum (Campuswire).
+- Use an AI tool to produce homework solutions in place of their own work, as explained below.
+- Post the course questions on forums other than the designated course discussion forum.
 - Submit someone else's work or a modification of that work, with or without that person's knowledge.
 - Allow someone else to submit their work or a modification of their work.
 - Contract course work out to others.
@@ -389,30 +409,28 @@ In addition, each student is the sole owner of their own code and work and must 
 
 Often, a student who considers cheating feels unprepared and under pressure. If you are at a point where you are contemplating cheating, please come talk to me instead.
 
-For more information about academic integrity and student conduct code, please go to <http://www.deanofstudents.ucla.edu/Student-Conduct>
+For more information, see UCLA's [Student Conduct Office](https://studentconduct.ucla.edu/) and [current Student Conduct Code](https://studentconduct.ucla.edu/2026-individual-student-code).
+
+### Using AI to Support Learning
+
+You may use AI tools, including ChatGPT, GitHub Copilot, Gemini, and Claude, for **hints, explanations, help finding relevant functions, and debugging code you have written**. Asking what an error message means, how a function works, or why your code produces an unexpected result is permitted. Targeted suggestions for correcting your own code are also permitted.
+
+You must do the thinking yourself: choose your approach, develop and test your answer, and be able to explain the code and results you submit. Evaluate AI suggestions instead of accepting them without understanding them.
+
+**Do not paste a homework prompt or individual question into an AI tool and ask it to write the solution.** Do not use a series of requests to have AI build the solution for you, or copy an AI-generated solution and present it as your own. You may describe the specific difficulty you are working through and share relevant portions of your own code to ask for a hint, explanation, or debugging help.
+
+These permissions apply to learning and homework assistance. **AI may not be used to answer iClicker questions or during exams unless the instructor explicitly permits it.**
 
 
 ## Sexual Harassment, Sexual Violence, and Gender Discrimination
 
-Title IX prohibits sexual harassment, sexual violence, and any discrimination based on gender, gender identity, sexual orientation, pregnancy.
+UCLA prohibits sexual violence, sexual harassment, discrimination, and retaliation. If you or someone you know has experienced this conduct, support and reporting resources are available.
 
-> The University of California is committed to creating and maintaining a community dedicated to the advancement, application and transmission of knowledge and creative endeavors through academic excellence, where all individuals who participate in University programs and activities can work and learn together in an atmosphere free of harassment, exploitation, or intimidation.
+**Confidential advocacy:** UCLA CARE supports students affected by sexual or gender-based violence. CARE is located at **205 Covel Commons, 330 De Neve Drive**. Call **(310) 206-2465**, email <advocate@careprogram.ucla.edu>, or [request a CARE appointment](https://careprogram.ucla.edu/request-an-appointment). Current hours and contact information are on the [CARE website](https://careprogram.ucla.edu/contact).
 
-If you, or someone you know, have been a victim of sexual harassment or sexual violence, please know that you are not alone and you can seek help. The University offers many resources to aid students and other victims.
+**Reporting:** UCLA's Civil Rights Office (CRO) receives reports of sexual misconduct, discrimination, harassment, and retaliation. Contact CRO at **Murphy Hall, Suite 2255**, **(310) 825-7102**, or <civilrights@ucla.edu>. See [CRO reporting and support information](https://civilrights.ucla.edu/) and [current contact information](https://civilrights.ucla.edu/contact-us). CRO is a reporting office, not a confidential advocacy service.
 
-The Title IX office offers both confidential and non-confidential resources for survivors.
-
-<http://sexualharassment.ucla.edu/>
-
-<https://sexualharassment.ucla.edu/resources/resources-for-complainants>
-
-Any type of harassment of any other student will not be tolerated.
-
-Please be aware that your TA and Lecturer are legally compelled to report any information in regards to sexual harassment or sexual violence to the Title IX officer.
-
-Confidential support and advocacy is available for students who have experienced sexual harassment or sexual violence at the CARE Advocacy Office for Sexual and Gender-Based Violence, John Wooden Center West 1st Floor, (310) 206-2465, <advocate@careprogram.ucla.edu>. Sexual violence or sexual harassment can also be reported directly to the University's Title IX Coordinator, 2241 Murphy Hall, <titleix@conet.ucla.edu>, (310) 206-3417.
-
-Reach a confidential UCLA advocate, 24 hours a day, 7 days a week by calling the CAPS 24/7 Crisis Hotline (310) 825-0768
+Your instructor and TAs are Responsible Employees under UC policy. When we learn in our teaching roles that a student may have experienced sexual violence or sexual harassment, we must report that information to CRO. See UCLA's [faculty and staff reporting responsibilities](https://civilrights.ucla.edu/report-concern/faculty-staff-reporting-responsibilities). For confidential support, contact CARE or Counseling and Psychological Services (CAPS).
 
 ## Mental Health and Student Well-Being
 
@@ -420,9 +438,9 @@ Counseling and Psychological Services (CAPS) is here to support your mental heal
 
 All registered UCLA students are eligible for same-day clinical consultation and help with referrals, linkage, treatment recommendations, and coordination of mental health care and support regardless of insurance plan or current residence.
 
-24/7 crisis support is always available by phone at (310) 825-0768.
+**CAPS provides 24/7 crisis counseling by phone at (310) 825-0768.** For urgent mental health concerns, call rather than email. In a life-threatening emergency, call 911.
 
-<http://counseling.ucla.edu>
+[CAPS services](https://counseling.ucla.edu/) and [contact information](https://counseling.ucla.edu/contact).
 
 Attending and completing university coursework is difficult and can become burdensome both physically and psychologically. Take care of your mental well-being and seek support from some of the many excellent resources offered at CAPS.
 
@@ -432,9 +450,11 @@ It's every Bruin's responsibility to refer or reach out on behalf of students wh
 
 ## Accommodations for Students with Disabilities 
 
-Students needing academic accommodations based on a disability must contact the Center for Accessible Education (CAE) at (310) 825-1501 or present in person at Murphy Hall A255. As the professionals delegated authority from the campus to determine reasonable disability accommodations, CAE will assess all requested accommodations and communicate appropriately with faculty. In the event that a student has approval for proctoring arrangements during exams, please inform your respective professors and/or Teaching Assistant before date of exams. When possible, students should contact the CAE within the first two weeks of the term as reasonable notice is needed to coordinate accommodations.
+Students requesting disability-related accommodations should contact the **Center for Accessible Education (CAE)** as soon as possible at **(310) 825-1501**, **A255 Murphy Hall**, or <caeintake@saonet.ucla.edu>. CAE determines reasonable accommodations and communicates approved accommodations to instructors.
 
-For more information visit <http://cae.ucla.edu>
+Use **myCAE**, available through the [CAE website](https://www.cae.ucla.edu/), to request accommodations and arrange for your accommodation letter to be shared with the instructor. Coordinate approved exam arrangements in advance and follow CAE's current scheduling deadlines. Contacting CAE early helps provide time to arrange accommodations.
+
+See [CAE contact information](https://www.cae.ucla.edu/contact) and the [CAE website](https://www.cae.ucla.edu/) for current procedures and deadlines.
 
 ## General Syllabus Policy
 
